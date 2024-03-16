@@ -13,7 +13,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.izquierdac {
   background-color: #f0f1f2;
+}
+
+.izquierdao {
+  background-color: #020202;
 }
 
 .poster {
@@ -29,7 +36,14 @@
   align-items: center;
   width: 50%;
   height: 100%;
+}
+
+.derechac {
   background-color: #f0f1f2;
+}
+
+.derechao {
+  background-color: #020202;
 }
 
 .logogrande {
@@ -40,7 +54,15 @@
   text-align: center;
   width: 60%;
   font-size: 1.5rem;
-  color: #531313;;
+  color: white;
+}
+
+.mensajeo {
+  color: white;
+}
+
+.mensajec {
+  color: #000000;
 }
 
 .comienza {
@@ -63,7 +85,14 @@
   width: 100%;
   margin-bottom: 10px;
   border-radius: 9px;
+}
+
+.infoo {
   background-color: #d3d5d8;
+}
+
+.infoc {
+  background-color: #ffffff;
 }
 
 .imginfo {
@@ -78,3 +107,61 @@
   color: #000000;
 }
 
+@media (max-width: 980px) {
+  .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    top: 80px;
+  }
+  .izquierda {
+    width: 100%;
+    height: auto;
+  }
+
+  .poster {
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+  }
+  .derecha {
+    width: 100%;
+    height: auto;
+  }
+
+  .logogrande {
+    width: 30%;
+  }
+
+  .mensaje {
+    text-align: center;
+    width: 50%;
+    font-size: 0.8rem;
+  }
+
+  .comienza {
+    padding: 0.1rem;
+    margin-bottom: 5px;
+  }
+
+  .contenedorinfo {
+    width: 70%;
+  }
+
+  .info {
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+  }
+
+  .imginfo {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
+
+  .mensajeinfo {
+    margin-left: 5px;
+    font-size: 0.7rem;
+  }
+}

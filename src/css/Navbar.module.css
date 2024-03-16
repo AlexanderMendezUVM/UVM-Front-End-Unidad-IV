@@ -3,11 +3,18 @@
     position: fixed;
     width: 100%;
     justify-content:space-between;
-    background-color: #F0F1F2;
-    border-bottom: solid 2px #dfdcdc;
+    align-items: center;
 }
 
+.navbarc {
+    background-color: #F0F1F2;
+    border-bottom: solid 1px #999999;
+}
 
+.navbaro {
+    background-color: black;
+    border-bottom: solid 1px #999999;
+}
 
 .logo {
     display: flex;
@@ -19,14 +26,17 @@
     background-color: transparent;
 }
 
+.modopng{
+    height: 25px;
+    width: 25px;
+}
 
+.contenedor2{
+    visibility: hidden;
+}
 
-.contenedorlogo{
-    display: flex;
-    margin-left: 0;
-    justify-content: center;
-    align-items: center;
-    padding-right: 500px;
+.modopng:hover{
+    transform: scale(1.2);
 }
 
 .logopng{
@@ -34,22 +44,15 @@
     width: 60px;
 }
 
-.logotext{
+.logotextc{
     font-size: 36;
     color:#531313;
 }
 
-.modopng{
-    height: 25px;
-    width: 25px;
+.logotexto{
+    font-size: 36;
+    color:#FFFFFF;
 }
-
-.modopng:hover{
-    transform: scale(1.2);
-}
-
-
-
 
 .iconomenu {
     border: none;
@@ -60,17 +63,21 @@
 .menu {
     list-style-type: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 1rem;
-    padding-right: 50px;
 }
 
 .item {
     text-decoration: none;
     font-size: 1.2rem;
     padding-right: 2remx;
+}
+
+.itemo{
     color:#531313;
+}
+
+.itemc{
+    color:#FFFFFF;
 }
 
 .item:hover {
@@ -83,4 +90,68 @@
 
 :focus::-webkit-input-placeholder{
     opacity: 0.3;
+}
+
+@media (max-width: 1160px) {
+    .navbar {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .modopng:hover{
+        transform: scale(1.2);
+    }
+    
+    .logopng{
+        height: 60px;
+        width: 60px;
+    }
+    
+    .logotextc{
+        display: none;
+    }
+    
+    .logotexto{
+        display: none;
+    }
+    
+    .iconomenu {
+        display: block;
+    }
+
+    .menucerrado{
+        position: absolute;
+        top: 40px;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        transform: translateX(-100%);
+    }
+
+    .menuabierto{
+        position: absolute;
+        top:40px;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        transform: translateX(0) !important
+    }
+    .menu {
+        display:block;
+        background-color: #d3d5d8;
+        position: absolute;
+        z-index: 999 !important;
+        top: 50px;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        transform: translateX(-100%);
+    }
+    
 }
