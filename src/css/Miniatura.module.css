@@ -1,0 +1,33 @@
+.miniatura{
+    list-style: none;
+    font-size: 1.35rem;
+    text-align: center; 
+}
+
+.imgoscuro{
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgb(44, 44, 44);
+}
+
+.imgclaro{
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgb(238, 238, 238);
+}
+
+.tituloo{
+    text-decoration: none;
+    color:#531313;
+}
+
+.tituloc{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+
+@media (max-width: 550px) {
+    .imgclaro .imgoscuro{
+        width: 90%;
+        height: auto;
+   }  
+}
