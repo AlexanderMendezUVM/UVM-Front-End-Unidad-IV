@@ -1,11 +1,9 @@
 import {useEffect, useState } from "react";
-import { useDebounce } from "../utilidades/useDebounce";
 import estilos from "../css/Listado.module.css";
 import { Miniatura } from "./Miniatura";
 export function Listado({dark, pagina}) {
   const [peliculas, setPeliculas]= useState([])
   const [buscarp,setBuscarp] = useState("");
-  const debounceValue = useDebounce(buscarp, 300);
 
   const buscarPelicula = () => {
   if (buscarp.length>0){
@@ -21,7 +19,7 @@ export function Listado({dark, pagina}) {
   };
   useEffect(() => {
     buscarPelicula();
-  }, [debounceValue, pagina]);
+  }, [buscarp, pagina]);
 
   const evaluarCambios = ({ target }) => {
     setBuscarp(target.value);
