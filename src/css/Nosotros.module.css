@@ -1,4 +1,99 @@
-.principal{
-    padding: 80px;
-    color: black;
-}
+.contenedorc {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 65px;
+    background-color: #f0f1f2;
+  }
+  
+  .contenedoro {
+      display: flex;
+      width: 100%;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      padding-top: 65px;
+      background-color: #000000;
+    }
+    
+  
+  .cuerpoc {
+    width: 100%;
+    height: 100%;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f1f2;
+    color: #000000;
+  }
+  
+  .cuerpoo {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #000000;
+    }
+    
+  
+  .logogrande {
+    width: 38%;
+    opacity: 15%;
+    position: fixed;
+  }
+  
+  .equipoc {
+    text-align: center;
+    width: 60%;
+    font-size: 1.8rem;
+    color: #531313;
+  }
+  
+  .equipoo {
+      text-align: center;
+      width: 60%;
+      font-size: 1.8rem;
+      color: #f0f1f2;
+  }
+  
+  .integrantesc{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 3rem 5rem;
+      color: #000000;
+  }
+  
+  .integranteso{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 3rem 5rem;
+      color: #f0f1f2;
+  }
+  
+  .infointegrantes{
+      display: flex;
+      flex-direction: column;
+      border-bottom: 4px solid #531313;
+      width: 200px;
+      height: 25px;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .textoo{
+      width: 80%;
+      text-align: justify;
+      font-size: 1.3rem;
+      color: #f0f1f2;
+  }
+  
+  .textoc{
+      width: 80%;
+      text-align: justify;
+      font-size: 1.3rem;
+      color: #000000;
+  }
