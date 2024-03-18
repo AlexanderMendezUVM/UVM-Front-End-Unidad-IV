@@ -33,7 +33,7 @@ export function Detalles({dark}) {
     <div className={dark ? estilos.contenedorc : estilos.contenedoro}>
         <div className={estilos.contenedorposter}>
             <img style={{width:"350px", height:"auto"}} className={estilos.poster} src={rutaminiatura} alt=""/>
-            <button className={estilos.botontrailer} type="button" onClick={() => {setShow(!show);}}>
+            <button className={dark ? estilos.botontrailerc : estilos.botontrailero} type="button" onClick={() => {setShow(!show);}}>
               Ver/Ocultar Video
             </button>
             <div className={show ? estilos.mostrarvideo: estilos.ocultarvideo}>

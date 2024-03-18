@@ -21,8 +21,8 @@
 
 .slidetrack {
     display: flex;
-    animation: scroll 40s linear infinite;
-    -webkit-animation: scroll 40s linear infinite;
+    animation: scroll 60s linear infinite;
+    -webkit-animation: scroll 60s linear infinite;
     width: calc(450px * 40);
 }
 

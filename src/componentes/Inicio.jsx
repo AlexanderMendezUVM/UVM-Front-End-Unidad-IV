@@ -17,7 +17,7 @@ export function Inicio({dark}) {
 
     const rutaminiatura = "https://image.tmdb.org/t/p/w500" + poster[0];
   return (
-    <div className={estilos.contenedor}>
+    <div className={dark ? estilos.contenedorc : estilos.contenedoro}>
         <div className={dark ? `${estilos.izquierda} ${estilos.izquierdac}` : `${estilos.izquierda} ${estilos.izquierdao}`}>
             <img className={estilos.poster} src={rutaminiatura} alt=""/>
         </div>

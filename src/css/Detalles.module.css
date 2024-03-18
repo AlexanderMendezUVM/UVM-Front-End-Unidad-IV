@@ -29,15 +29,40 @@
     position: relative;
 }
 
-.botontrailer{
+.botontrailerc{
     position: absolute;
     top:450px;
-    right: 0;
+    right: -50px;
     border: solid 2px #FFFFFF;
-    padding: 5px;
-    background-color: #000000;
+    border-radius: 9px;
+    padding: 15px 6px;
+    background-color: #531313;
     color: #FFFFFF;
+    font-size: 1.3rem;
+    box-shadow: 3px 3px 8px rgb(44, 44, 44);
 }
+
+.botontrailero{
+    position: absolute;
+    top:450px;
+    right: -50px;
+    border: solid 2px #FFFFFF;
+    border-radius: 9px;
+    padding: 15px 6px;
+    background-color: #531313;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    box-shadow: 3px 3px 8px rgb(238, 238, 238);;
+}
+
+.botontrailerc:hover{
+    transform: scale(1.1);
+}
+
+.botontrailero:hover{
+    transform: scale(1.1);
+}
+
 
 .mostrarvideo{
     position: absolute;

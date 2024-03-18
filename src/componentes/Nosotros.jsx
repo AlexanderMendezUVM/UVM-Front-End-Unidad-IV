@@ -13,15 +13,19 @@ export function Nosotros({dark}) {
             </h3>
             <div className={dark ? estilos.integrantesc : estilos.integranteso}>
               <div className={estilos.infointegrantes}>
+                <img className={estilos.foto} src="./Alexander.png" alt="" />
                 <h3>Alexander Mendez</h3>
               </div>
               <div className={estilos.infointegrantes}>
+                <img className={estilos.foto} src="./Aaron.png" alt="" />
                 <h3>Aaron Rosales</h3>
               </div>
               <div className={estilos.infointegrantes}>
+                <img className={estilos.foto} src="./Jesus.png" alt="" />
                 <h3>Jesus Delgado</h3>
               </div>
               <div className={estilos.infointegrantes}>
+                <img className={estilos.foto} src="./Jose.png" alt="" />
                 <h3>Jose Barrios</h3>
               </div>
             </div>

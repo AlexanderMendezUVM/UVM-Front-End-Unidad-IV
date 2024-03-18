@@ -10,10 +10,14 @@
 }
 
 .imgbuscar{
+    position:fixed;
     width: 20px;
     height: 20px;
+    right: 220px;
 }
 .txtbuscar{
+    position: fixed;
+    right: 30px;
     border:none;
     font-size: 0.9rem;
     border-radius: 8px;

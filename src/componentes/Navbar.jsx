@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import {useState} from "react";
 
 export function Navbar({dark, cambiarmodo, pagina, cambiarpagina, buscarp, buscarpeli}) {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(true)
   return (
     <nav className={dark ? `${estilos.navbar} ${estilos.navbarc}` : `${estilos.navbar} ${estilos.navbaro}`}>
         <button onClick={()=>cambiarmodo(dark)} className={estilos.logo}>
@@ -18,10 +18,10 @@ export function Navbar({dark, cambiarmodo, pagina, cambiarpagina, buscarp, busca
           <h1 className={dark ? estilos.logotextc : estilos.logotexto} >Mermovies</h1>
         </Link>
         <button onClick={()=>cambiarpagina(--pagina)} className={estilos.logo}>
-              <img className={estilos.modopng} src="./prev.png" alt=""/>
+              <img className={estilos.modopngpag} src="./prev.png" alt=""/>
         </button>
         <button onClick={()=>cambiarpagina(++pagina)} className={estilos.logo}>
-              <img className={estilos.modopng} src="./next.png" alt=""/>
+              <img className={estilos.modopngpag} src="./next.png" alt=""/>
         </button>
         <button onClick={()=> setIsOpen(!isOpen)} className={estilos.iconomenu}>
               <img className={estilos.modopng} src="./iconmenu.png" alt=""/>
