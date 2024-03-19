@@ -6,9 +6,15 @@ Primero se elaboró la maquetación de nuestra página (Sobre todo la Landing Pa
 
 ¿Cómo se utiliza?
 1: Descargue el código del repositorio.
+
 2: Abra el proyecto en su editor de texto de preferencia (Por ejemplo, Visual Studio Code o Sublime).
+
 3: Abra la terminal en el editor usando el comando CTRl+Shift+ñ para ejecutar el comando: npm install
+
 4: Una vez instalado todos los paquetes, ejecute el comando: npm run start.
+
 5: Una vez ejecutada la aplicación, puede interactuar con nuestra página, empezando con la barra de navegación donde se encuentran los atajos a Listado, Tendencias y Sobre Nosotros.
+
 6: En el apartado de listado puede observar las películas, en donde al dar click en cada una puede visualizar el poster, descripción, géneros, fecha de estreno o incluso el trailer.
+
 7: Apretando f12 y la opcion "Toggle Device Toolbar" puede probar el Responsive de la página, tanto para PC, Laptop, Tablet o Teléfono.
